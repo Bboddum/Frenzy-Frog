@@ -8798,8 +8798,6 @@ CompositeCollider2D:
         Y: 289999900
       - X: 140624878
         Y: 289999900
-      - X: 140006525
-        Y: 285053006
       - X: 140000100
         Y: 285001609
     - - X: -719999900
@@ -16930,6 +16928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   removeItem: {fileID: 1298126073}
   uiObject: {fileID: 966581861}
+  Pointtext: {fileID: 261248484}
 --- !u!61 &1913046161
 BoxCollider2D:
   m_ObjectHideFlags: 0
