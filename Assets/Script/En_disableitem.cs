@@ -8,6 +8,9 @@ public class En_disableitem : MonoBehaviour
     public GameObject Todisable1;
     public GameObject ToDisable;
     public GameObject remove;
+    public GameObject remove1;
+    [SerializeField] private Transform Player;
+    [SerializeField] private Transform Transitpoint;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -18,6 +21,8 @@ public class En_disableitem : MonoBehaviour
             ToEnable.SetActive(true);
             ToDisable.SetActive(false);
             Destroy(remove);
+            Destroy(remove1);
+            Player.transform.position = Transitpoint.transform.position;
         }
     }
 
