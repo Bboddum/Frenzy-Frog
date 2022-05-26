@@ -8,6 +8,7 @@ public class ShowUI : MonoBehaviour
 
     [SerializeField] private GameObject removeItem;
     [SerializeField] private GameObject uiObject;
+    [SerializeField] private Text Pointtext;
     void Start()
     {
         uiObject.SetActive(false);
@@ -18,6 +19,9 @@ public class ShowUI : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             uiObject.SetActive(true);
+            Lifeamount.Point = 0;
+            Pointtext.text = "Point:" + Lifeamount.Point;
+            Lifeamount.Life = 3;
             StartCoroutine("WaitForSec");
         }
     }
@@ -26,8 +30,7 @@ public class ShowUI : MonoBehaviour
         yield return new WaitForSeconds(4);
         Destroy(uiObject);
         Destroy(gameObject);
-        Destroy(removeItem);
-        Lifeamount.Life = 3;
+        Destroy(removeItem);        
     }
 
 }
