@@ -20,7 +20,6 @@ public class ShowUI : MonoBehaviour
         {
             uiObject.SetActive(true);
             Lifeamount.Point = 0;
-            Pointtext.text = "Point:" + Lifeamount.Point;
             Lifeamount.Life = 3;
             StartCoroutine("WaitForSec");
         }
@@ -30,7 +29,8 @@ public class ShowUI : MonoBehaviour
         yield return new WaitForSeconds(4);
         Destroy(uiObject);
         Destroy(gameObject);
-        Destroy(removeItem);        
+        Destroy(removeItem);
+        Pointtext.text = "Point:" + Lifeamount.Point;
     }
 
 }
