@@ -1739,7 +1739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1069671426
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1912,7 +1912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "AT ALL TIMES\n\tPress \"R\" to reset level\n\tPress \"m\" for menu"
+  m_Text: "AT ALL TIMES\n\tPress \"R\" to reset level\n\tPress \"M\" for menu"
 --- !u!222 &1298322831
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3368,7 +3368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1934726971
 RectTransform:
   m_ObjectHideFlags: 0

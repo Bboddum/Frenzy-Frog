@@ -8798,6 +8798,8 @@ CompositeCollider2D:
         Y: 289999900
       - X: 140624878
         Y: 289999900
+      - X: 140006525
+        Y: 285053006
       - X: 140000100
         Y: 285001609
     - - X: -719999900
@@ -15421,7 +15423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445547471}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.441096, y: 3.9538193, z: 73.8022}
+  m_LocalPosition: {x: -14.441096, y: 3.98, z: 73.8022}
   m_LocalScale: {x: 0.63757, y: 0.63757, z: 0.63757}
   m_Children: []
   m_Father: {fileID: 379626272}
